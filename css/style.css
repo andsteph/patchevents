@@ -1,0 +1,41 @@
+
+.pe-event {
+  text-align: center;
+}
+
+.pe-event-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.pe-event-content-title {
+  margin: 0.5rem 0;
+}
+
+.pe-event-content-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pe-event-content-description {
+  margin: 0.5rem 0;
+}
+
+@media ( min-width: 768px ) {
+  .pe-event {
+    display: flex;
+    gap: 2rem;
+  }
+  .pe-event-image {
+    flex: 1;
+  }
+  .pe-event-image img {
+    height: auto;
+    max-width: 100%;
+  }
+  .pe-event-content {
+    flex: 2;
+  }
+}
